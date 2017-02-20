@@ -6,15 +6,18 @@ All code samples are released under the MIT License.
 
 # Supported Hardware
 We currently have code examples for the following hardware platforms:
-* [Arduino](https://www.arduino.cc/) (works with the following 3.3V boards)
+* [Arduino](https://www.arduino.cc/) (works best with the following 3.3V boards)
     * [Arduino ZERO](https://www.arduino.cc/en/Main/ArduinoBoardZero) (use SPI connector and USB programming port)
-    * [Arduino Due](https://www.arduino.cc/en/Main/ArduinoBoardDue) (use SPI connector and USB programming port)
+    * [Arduino MKRZero](https://www.arduino.cc/en/Main/ArduinoBoardMKRZero) (not tested)
     * [Adafruit Feather M0 Basic Proto](https://www.adafruit.com/products/2772) (should also works with other feather M0 boards)
     * [Arduino 101](https://www.arduino.cc/en/Main/ArduinoBoard101) (not tested)
-    * [Arduino MKRZero](https://www.arduino.cc/en/Main/ArduinoBoardMKRZero) (not tested)
+    * [Arduino Due](https://www.arduino.cc/en/Main/ArduinoBoardDue) (use SPI connector and USB programming port)
 
 * [Adafruit FT232H Breakout](https://www.adafruit.com/products/2264) (use Python)
 
+| Information |
+| ------- |
+| Don't forget to check out the [MagAlpha Angle Sensor Arduino Library](https://github.com/monolithicpower/MagAlpha-Arduino-Library)|
 
 # About MagAlpha Sensor Familiy
 MagAlpha sensor family is based on Hall devices that are directly integrated with the signal treatment. These sensors are extremely compact and can instantaneously detects and delivers the angle value in digital format.
