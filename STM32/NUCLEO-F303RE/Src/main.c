@@ -126,12 +126,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
     angle = readMagAlphaAngle();
     sprintf((char *)uartTxData, "Angle = %d\n", angle);
     HAL_UART_Transmit(&huart2, uartTxData, strlen((const char *)uartTxData), uartTimeoutInMs);
     
-    
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
     /* Example with Parity Check
     angle = readMagAlphaAngleWithParityBitCheck(&error);
     if (error == true)
@@ -145,7 +146,6 @@ int main(void)
       HAL_UART_Transmit(&huart2, uartTxData, strlen((const char *)uartTxData), uartTimeoutInMs);
     }
     */
-    /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
